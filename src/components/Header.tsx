@@ -57,6 +57,7 @@ export default function Header() {
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener("scroll", handleScroll, { passive: true });
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsTouchDevice("ontouchstart" in window);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);

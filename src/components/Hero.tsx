@@ -179,7 +179,7 @@ export default function Hero() {
                 <HeadphonesIcon className="w-4 h-4 lg:w-5 lg:h-5 text-blue-600 shrink-0" />
                 <div>
                   <div className="text-xs lg:text-[13px] font-bold text-dark-navy leading-tight">24/7 Support</div>
-                  <div className="text-[10px] lg:text-[11px] text-muted">We're here to help</div>
+                  <div className="text-[10px] lg:text-[11px] text-muted">We&apos;re here to help</div>
                 </div>
               </div>
             </div>
