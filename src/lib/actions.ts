@@ -1,5 +1,3 @@
-"use server";
-
 import { validateLeadForm, validateQuoteForm } from "./schemas";
 
 export type ActionResult = {
